@@ -1,0 +1,130 @@
+#menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid blue;
+  background-color: rgb(161, 222, 247);
+}
+
+#txtPesquisa{
+  float: left;
+  background-color: white;
+  padding-left: 5px;
+  font-size: 15px;
+  height: 26px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+#bntBusca{
+  border: 1px solid black;
+  float: left;
+  width: 28px;
+  background-color: white;
+}
+
+#texto{
+  text-align: right;
+}
+
+#redes{
+  float: right;
+  width: 100px;
+  font-weight: bold;
+}
+
+body{ 
+  margin: 0; font-family: sans-serif; 
+}
+
+.banner{ 
+  width: 100vw; 
+  height: 100vh;  
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  color: rgb(161, 222, 247);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5aTNpl4o3mY1A26iGHQtg9ieYGN82f3V_OQ&usqp=CAU); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  
+}
+
+.card{
+  width: 300px; 
+  font-family: 'Lato'; 
+  background-color: rgb(161, 222, 247); 
+  padding: 20px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+  align-items: center; 
+  border-radius: 3px; 
+  justify-content: space-around;
+}
+
+.card{
+  font-size: 17px; 
+  padding-bottom: 5px;
+}
+
+.botao{ 
+     display: flex; 
+     justify-content: center; 
+     margin-top: 60px; 
+ } 
+  
+.btn{ 
+     color: white; 
+     background-color: rgb(161, 222, 247);
+     padding: 10px; 
+     width: 300px; 
+     text-transform: uppercase; 
+     font-family: 'Lato'; 
+     font-weight: 900; 
+     border-radius: 2px;
+ }
+
+#rodape { 
+     display: flex; 
+     justify-content: center; 
+     margin-top: 20px; 
+     background-color: #6A5ACD; 
+     padding: 40px 20px; 
+     align-items: center; 
+     font-family: 'Lato'; 
+     flex-wrap: wrap; 
+     gap: 150px; 
+ } 
+
+.address { 
+     color: blanchedalmond; 
+ } 
+  
+ .address strong { 
+     color: #d9d9d9; 
+ } 
+
+.criador { 
+     color: #d9d9d9; 
+ } 
+
+ 
+#segrodape { 
+     display: flex; 
+     justify-content: center; 
+     font-family: 'Lato'; 
+     padding: 10px; 
+     background-color: #242424; 
+     color: #d9d9d9; 
+ }
